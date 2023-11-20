@@ -9,6 +9,7 @@ import Home from './Home/Home';
 import NavBar from './NavBar/NavBar';
 import LogIn from './LogIn/LogIn';
 import AuthProvider from './AuthProvider/AuthProvider';
+import Register from './Register/Register';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <LogIn></LogIn>,
+      },
+      {
+        path: "/register",
+        element: <Register></Register>,
       },
     ],
   },
